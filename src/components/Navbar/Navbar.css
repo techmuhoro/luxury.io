@@ -1,0 +1,30 @@
+#hero .navbar {
+    position: relative;
+    z-index: 99;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 80%;
+    margin: 0px auto;
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
+    display: flex;
+    padding: 10px 20px;
+}
+#hero .navbar .logo h1 {
+    color: var(--red);
+}
+#hero .navbar .left {
+    margin-left: auto;
+    width: 20%;
+}
+#hero .navbar ul {
+    list-style: none;
+    display: flex;
+    padding-top: 7px;
+    color: rgb(3, 3, 177);
+}
+#hero .navbar ul li {
+    cursor: pointer;
+}
+#hero .navbar ul li:last-child {
+    margin-left: 20px;
+}

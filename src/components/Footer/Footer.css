@@ -1,0 +1,9 @@
+section.footer {
+    background: rgb(0, 0, 27);
+    color: white;
+    margin-top: 20px;
+}
+section.footer .wrapper {
+    padding: 10px 0;
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+div.top-selling {
+    background: white;
+    /* height: 200px; */
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-rows: 200px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 10px;
+}

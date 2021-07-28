@@ -1,0 +1,75 @@
+.sp {
+    /* background-color: red; */
+    width: 80%;
+    margin: 30px auto;
+}
+.sp .sp-wrapper {
+    width: 100%;
+}
+.sp .sp-header {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    height: 400px;
+}
+.sp .sp-header .sp-header-img {
+    background-color: white;
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sp .sp-header .sp-header-sidebar {
+    background-color: white;
+    margin-left: 10px;
+    width: 28%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.sp .sp-header .sp-header-sidebar .sidebar-wrapper {
+    /* border: 1px solid black; */
+    /* background-color: red; */
+    width: 100%;
+    padding: 0px 20px;
+}
+.sp .sp-header .sp-header-sidebar .sidebar-wrapper button {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+}
+.sp .sp-header .sp-header-sidebar .sidebar-wrapper button:first-of-type {
+    background-color: var(--red);
+    border: 0;
+    color: white;
+}
+.sp .sp-header .sp-header-sidebar .sidebar-wrapper button:last-of-type {
+    background-color: transparent;
+    border: 2px solid var(--red);
+}
+.sp .sp-header .sp-header-sidebar .sidebar-wrapper h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.sp .sp-description {
+    background-color: white;
+    margin-top: 20px;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+.sp .sp-description h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--red);
+    text-transform: uppercase;
+}
+.sp .sp-description p {
+    color: rgb(148, 144, 144);
+    line-height: 1.3rem;
+    text-align: justify;
+}

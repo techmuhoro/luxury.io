@@ -1,0 +1,55 @@
+#site-hero {
+    width: 80%;
+    background-color: white;
+    margin: var(--margin) auto;
+    height: 300px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+#site-hero::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--red);
+    position: absolute;
+    top: 0;
+    left: -50%;
+    transform: skewX(320deg);
+}
+#site-hero .site-hero-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    z-index: 9999;
+}
+#site-hero .more-details {
+    width: 50%;
+    /* border: 2px solid red; */
+    padding: 8% 40px 0px 30px;
+    /* color: white; */
+}
+#site-hero .more-details h1 {
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+}
+#site-hero .more-details p {
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 1.3rem;
+}
+#site-hero .site-hero-img {
+    width: 50%;
+    /* border: 2px solid red; */
+    position: relative;
+}
+#site-hero .site-hero-img .img1 {
+    /* border: 1px solid black; */
+    width: 100%;
+}
+#site-hero .site-hero-img .img2 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 150px;
+}

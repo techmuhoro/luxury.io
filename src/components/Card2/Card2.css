@@ -1,0 +1,66 @@
+.card2 {
+    /* margin-bottom: 200px;
+    margin-top: 10px; */
+    /* margin-bottom: 20px; */
+    width: 150px;
+    height: 200px;
+    background: white;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+    /* border: 1px solid rosybrown; */
+    justify-self: center;
+}
+.card2:hover {
+    transform: scale(1.02);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.card2::before {
+    content: "";
+    background: rgb(0, 180, 200);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -60%;
+    left: 0;
+    transform: skewY(-330deg);
+}
+.card2 .card2-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 99;
+    /* background-color: red; */
+}
+.card2 .card2-img {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    padding-top: 10px;
+    /* border: 1px solid black; */
+}
+.card2 .card2-body {
+    padding-top: 10px;
+    text-align: center;
+}
+.card2 .card2-body > * {
+    margin-bottom: 5.5px;
+}
+.card2 .card2-body .price-small {
+    font-size: smaller;
+}
+.card2 .card2-body button {
+    background: none;
+    border: 2px solid rgb(0, 180, 200);
+    width: 80%;
+    padding: 3px 0;
+    display: inline-block;
+    margin: auto;
+}
+.card2 .card2-body .add-cart {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
